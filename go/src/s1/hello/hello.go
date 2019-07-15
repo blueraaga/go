@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"stringutil"
+	"s1/stringutil"
 )
 
 func main() {
