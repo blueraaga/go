@@ -20,6 +20,7 @@ func (c car) mih() float64 {
 	return float64(c.gas_pedal) * (c.top_speed_kmh/u16bit_max/kmh_mih)
 }
 
+// pointer reciever
 func (c *car) new_top_speed(new_speed float64) {
 	c.top_speed_kmh = new_speed
 }
@@ -34,7 +35,7 @@ func main() {
 	fmt.Println(a_car.kmh())
 	fmt.Println(a_car.mih())
 
-	a_car.new_top_speed(500)
+	a_car.new_top_speed(500)	// value is changed in original strucht instance
 
 	fmt.Println(a_car.kmh())
 	fmt.Println(a_car.mih())
