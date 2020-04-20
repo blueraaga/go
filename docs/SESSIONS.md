@@ -1,4 +1,5 @@
 # Sessions
+
 The following is a list of programming sesions taken over Go. Codes are located inside `go/src` folder. The are classified into followng types:
 
 ## Types
